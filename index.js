@@ -13,7 +13,7 @@ function getDogImage (count) {
 function displayResults(responseJson) {
     let imgString = ""
     for(let i = 0; i <responseJson.message.length; i++) {
-        imgString += `<img src="${responseJson.message[i]}" class="results-img" alt="placehodler"/>`
+        imgString += `<img src="${responseJson.message[i]}" class="results-img" alt="placehodler" width="auto" height="auto"/>`
     }   
     console.log(imgString);
 
